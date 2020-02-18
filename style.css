@@ -1,0 +1,26 @@
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 90px 100px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.photo {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.title {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.period, .name-of-course  {
+  font-weight: bold;
+}
